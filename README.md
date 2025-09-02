@@ -1,38 +1,88 @@
-# LambdaTestFramework
+# LambdaTest Automation Framework Overview
 
-**LambdaTest TEST ID for jsAlert**: `V4GDH-BFYRT-F6UA1-9IAES`  
-**LambdaTest TEST ID for login**: `RKUJP-JE197-TQNIV-ZFFNR`
+This is a Selenium-based test automation framework designed to run tests on LambdaTest platform. The framework is built using Java with TestNG and follows the Page Object Model (POM) design pattern.
 
----
+## Tech Stack
+- Java 8
+- Selenium WebDriver 4.29.0
+- TestNG 7.10.2
+- Maven
+- Lombok
+- Extent Reports
 
-## 🧪 Framework Explanation
+## Project Structure
 
-This project is a **Hybrid Test Automation Framework** built using **Selenium WebDriver**, **Java**, and **TestNG**. It is designed to be **flexible**, **maintainable**, and **scalable** for various testing needs.
+```
+LambdaTestFramework/
+├── src/
+│   └── test/
+│       ├── java/
+│       │   ├── pageObjects/          # Page Object classes
+│       │   │   ├── BasePage.java     # Base page with common methods
+│       │   │   ├── HomePage.java     # Home page elements and methods
+│       │   │   ├── InputFormPage.java
+│       │   │   ├── SimpleFormDemoPage.java
+│       │   │   └── SliderPage.java
+│       │   ├── testBase/
+│       │   │   └── BaseClass.java    # Test initialization and configuration
+│       │   ├── testCases/
+│       │   │   ├── Scenario1.java
+│       │   │   ├── Scenario2.java
+│       │   │   └── Scenario3.java
+│       │   └── utilities/
+│       │       └── ExtentReportsUtility.java
+├── logs/                             # Test execution logs
+├── reports/                          # Extent Reports output
+├── testData/                         # Test data files
+├── pom.xml                           # Maven configuration
+├── testOnLambdaTest.xml             # TestNG configuration
+└── parallelTest.xml                  # Parallel execution configuration
+```
 
----
+## Key Components
 
-## 🔧 Framework Capabilities
+1. **Page Objects (`pageObjects/`)**
+   - Contains classes representing web pages
+   - Each page class contains element locators and methods to interact with the page
+   - `BasePage.java` provides common functionality for all pages
 
-- **Parallel Test Execution** using TestNG’s multithreading.
-- **Cross-Browser Testing** support (e.g., Chrome, Firefox).
-- **Dual Environment Support**:
-  - Local Execution
-  - Remote Execution on cloud providers like LambdaTest.
-- **Page Object Model (POM)** structure for separating test logic from UI locators.
-- **Dynamic Environment Control** through a central `BaseClass`.
-- **Data-Driven Testing**:
-  - Test data (e.g., login credentials) is read from an Excel file using a custom Excel Utility.
-- **Advanced Reporting** using **Extent Reports** for clear and detailed test results.
+2. **Test Cases (`testCases/`)**
+   - `Scenario1.java`, `Scenario2.java`, `Scenario3.java` contain actual test cases
+   - Tests are written using TestNG framework
+   - Each scenario tests different functionality of the application
 
----
+3. **Base Class (`testBase/BaseClass.java`)**
+   - Handles test setup and teardown
+   - Manages driver initialization
+   - Contains common test configurations
 
-## 🔁 Execution Workflow
+4. **Utilities (`utilities/`)**
+   - `ExtentReportsUtility.java` - Handles test reporting
+   - Generates detailed HTML reports for test execution
 
-1. The test execution starts by reading configurations from the `config.properties` file.
-2. You define the environment (local or remote), browser, and other parameters in this config file.
-3. Based on the configuration, the `BaseClass` initializes the WebDriver and sets up the appropriate environment.
-4. Test data such as login credentials is fetched from Excel files.
-5. You then run the desired test suite by executing the appropriate **TestNG XML file**.
-6. After execution, detailed test reports are generated using **Extent Reports**.
+## Running Tests
 
----
+1. **Single Test Execution**
+   ```bash
+   mvn test -DsuiteXmlFile=testOnLambdaTest.xml
+   ```
+
+2. **Parallel Test Execution**
+   ```bash
+   mvn test -DsuiteXmlFile=parallelTest.xml
+   ```
+
+## Reports and Logs
+- Test reports are generated in the `reports/` directory
+- Execution logs are stored in the `logs/` directory
+- Reports include detailed test steps, screenshots, and execution status
+
+## Best Practices
+1. Follow Page Object Model pattern
+2. Use meaningful names for methods and variables
+3. Keep test data separate from test code
+4. Maintain proper documentation
+5. Use TestNG annotations appropriately
+6. Implement proper logging and reporting
+
+This framework is designed to be scalable, maintainable, and easy to understand. It follows industry best practices and can be extended based on project requirements.
