@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-02T11:44:04 IST" name="Suite" finished-at="2025-09-02T11:45:32 IST" duration-ms="87964">
+    <groups>
+    </groups>
+    <test started-at="2025-09-02T11:44:04 IST" name="chrometest" finished-at="2025-09-02T11:45:32 IST" duration-ms="87964">
+      <class name="testCases.Scenario3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Scenario3@20b12f8a]" started-at="2025-09-02T11:44:58 IST" name="setUp" finished-at="2025-09-02T11:45:10 IST" duration-ms="12497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputForm()[pri:0, instance:testCases.Scenario3@20b12f8a]" started-at="2025-09-02T11:45:10 IST" name="testInputForm" finished-at="2025-09-02T11:45:31 IST" duration-ms="20937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Scenario3@20b12f8a]" started-at="2025-09-02T11:45:31 IST" name="tearDown" finished-at="2025-09-02T11:45:32 IST" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Scenario3 -->
+      <class name="testCases.Scenario2">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Scenario2@3569fc08]" started-at="2025-09-02T11:44:34 IST" name="setUp" finished-at="2025-09-02T11:44:47 IST" duration-ms="12957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dragAndDropTest()[pri:0, instance:testCases.Scenario2@3569fc08]" started-at="2025-09-02T11:44:47 IST" name="dragAndDropTest" finished-at="2025-09-02T11:44:57 IST" duration-ms="9636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Scenario2@3569fc08]" started-at="2025-09-02T11:44:57 IST" name="tearDown" finished-at="2025-09-02T11:44:58 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Scenario2 -->
+      <class name="testCases.Scenario1">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.Scenario1@544820b7]" started-at="2025-09-02T11:44:04 IST" name="setUp" finished-at="2025-09-02T11:44:21 IST" duration-ms="17105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="formDemo()[pri:0, instance:testCases.Scenario1@544820b7]" started-at="2025-09-02T11:44:21 IST" name="formDemo" finished-at="2025-09-02T11:44:34 IST" duration-ms="12541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Scenario1@544820b7]" started-at="2025-09-02T11:44:34 IST" name="tearDown" finished-at="2025-09-02T11:44:34 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Scenario1 -->
+    </test> <!-- chrometest -->
+  </suite> <!-- Suite -->
+</testng-results>

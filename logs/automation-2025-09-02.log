@@ -1,0 +1,56 @@
+11:34:02.269 [main] INFO  testCases.Scenario1 - ******* starting formDemo Test *******
+11:34:03.471 [main] INFO  testCases.Scenario1 - ******* formDemo Test Completed *******
+11:34:04.678 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+11:34:06.933 [main] INFO  testCases.Scenario3 - Starting Input Form Test
+11:34:07.336 [main] INFO  testCases.Scenario3 - Navigated to Input Form Demo page
+11:34:08.554 [main] INFO  testCases.Scenario3 - Clicked submit button without filling form
+11:34:08.740 [main] INFO  testCases.Scenario3 - Validated error message: Please fill out this field.
+11:34:09.440 [main] INFO  testCases.Scenario3 - Filled in form fields
+11:34:09.542 [main] INFO  testCases.Scenario3 - Selected United States from country dropdown
+11:36:05.682 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\parallelTest.xml"
+11:36:21.700 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\parallelTest.xml"
+11:36:21.917 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\parallelTest.xml
+
+11:36:23.524 [main] INFO  testCases.Scenario1 - ******* starting formDemo Test *******
+11:36:24.502 [main] INFO  testCases.Scenario1 - ******* formDemo Test Completed *******
+11:36:28.819 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+11:36:33.109 [main] INFO  testCases.Scenario3 - Starting Input Form Test
+11:36:33.643 [main] INFO  testCases.Scenario3 - Navigated to Input Form Demo page
+11:36:34.915 [main] INFO  testCases.Scenario3 - Clicked submit button without filling form
+11:36:34.976 [main] INFO  testCases.Scenario3 - Validated error message: Please fill out this field.
+11:36:35.775 [main] INFO  testCases.Scenario3 - Filled in form fields
+11:36:35.893 [main] INFO  testCases.Scenario3 - Selected United States from country dropdown
+11:39:47.556 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\parallelTest.xml"
+11:39:47.964 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\parallelTest.xml
+
+11:39:50.785 [TestNG-test-Chrome Tests-2] INFO  testCases.Scenario3 - Starting Input Form Test
+11:39:50.826 [TestNG-test-Chrome Tests-1] INFO  testCases.Scenario1 - ******* starting formDemo Test *******
+11:39:50.891 [TestNG-test-Chrome Tests-2] INFO  testCases.Scenario3 - Navigated to Input Form Demo page
+11:41:00.905 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\parallelTest.xml"
+11:41:01.277 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\parallelTest.xml
+
+11:41:03.964 [TestNG-test-Chrome Tests-1] INFO  testCases.Scenario1 - ******* starting formDemo Test *******
+11:41:05.301 [TestNG-test-Chrome Tests-1] INFO  testCases.Scenario1 - ******* formDemo Test Completed *******
+11:41:11.862 [TestNG-test-Firefox Tests-1] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+11:41:16.051 [TestNG-test-Chrome Tests1-1] INFO  testCases.Scenario3 - Starting Input Form Test
+11:41:16.593 [TestNG-test-Chrome Tests1-1] INFO  testCases.Scenario3 - Navigated to Input Form Demo page
+11:42:15.115 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+11:42:15.526 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+11:42:17.790 [main] INFO  testCases.Scenario1 - ******* starting formDemo Test *******
+11:42:20.078 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+11:42:22.191 [main] INFO  testCases.Scenario3 - Starting Input Form Test
+11:42:22.800 [main] INFO  testCases.Scenario3 - Navigated to Input Form Demo page
+11:42:24.359 [main] INFO  testCases.Scenario3 - Clicked submit button without filling form
+11:42:24.666 [main] INFO  testCases.Scenario3 - Validated error message: Please fill out this field.
+11:42:26.084 [main] INFO  testCases.Scenario3 - Filled in form fields
+11:42:26.350 [main] INFO  testCases.Scenario3 - Selected United States from country dropdown
+11:42:46.596 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+11:42:47.013 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+11:42:49.201 [main] INFO  testCases.Scenario1 - ******* starting formDemo Test *******

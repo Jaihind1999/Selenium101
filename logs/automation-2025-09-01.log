@@ -1,0 +1,58 @@
+20:21:19.269 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:21:46.605 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:21:46.827 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:21:48.393 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:22:37.528 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:22:37.768 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:22:39.333 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:23:02.891 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:23:03.084 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:23:04.635 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:23:31.599 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:23:31.813 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:23:33.394 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:24:08.808 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:24:09.061 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:24:10.623 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:24:42.894 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:24:43.147 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:24:44.729 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:25:15.422 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:25:15.641 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:25:17.160 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:28:16.363 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:28:16.574 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:28:18.140 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:29:40.120 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:29:40.360 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:29:41.963 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:31:09.103 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:31:09.329 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:31:10.915 [main] INFO  testCases.Scenario2 - ******* starting dragAndDrop Test *******
+20:55:17.267 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+20:55:17.475 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml
+
+20:55:19.168 [main] INFO  testCases.Scenario3 - ******* starting dragAndDrop Test *******
+21:05:57.818 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\anubh\OneDrive\Desktop\Eclipse workspace\LambdaTestFramework - Copy\testOnLambdaTest.xml"
+21:06:13.547 [main] INFO  testCases.Scenario3 - ******* starting dragAndDrop Test *******
